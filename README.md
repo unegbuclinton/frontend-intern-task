@@ -22,11 +22,11 @@ Kindly fork from the `master` branch. You are expected to fix the bugs outlined 
 Each bug fix should be done in separate branches and pushed to this repo.
 For example: after cloning this repo, to fix a task, I'll 
 - checkout to the master branch: `git checkout master`. 
-- Then create a branch for this speficic bug fix: `git checkout -b handle_click`. This branch will contain the fixes for this bug.
+- Then create a branch with your name for this speficic bug fix: `git checkout -b your_name_handle_click`. This branch will contain the fixes for this bug.
 
 How to Submit
 ---
-- Push the fixes in your local `handle_click` branch to this remote repo: `git push origin handle_click`
+- Push the fixes in your local `your_name_handle_click` branch to this remote repo: `git push origin your_name_handle_click`
 - Create Pull Request(PR) and point it master.
 - Don't forget to include detailed commit message on how you resolve the bug.
 
