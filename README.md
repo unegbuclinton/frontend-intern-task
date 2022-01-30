@@ -1,7 +1,7 @@
 Calculator
 ---
 
-This is a clone of iOS calculator app. But we have some few bugs we need to be fixed.
+This is a clone of iOS calculator app. But we have some few bugs that needs to be fixed.
 
 
 Install
