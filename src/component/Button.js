@@ -3,6 +3,10 @@ import PropTypes from "prop-types";
 import "./Button.css";
 
 export default class Button extends React.Component {
+  constructor(){
+    super()
+     this.handleClick = this.handleClick.bind(this);
+  }
   static propTypes = {
     name: PropTypes.string,
     orange: PropTypes.bool,

@@ -5,6 +5,10 @@ import PropTypes from "prop-types";
 import "./ButtonPanel.css";
 
 export default class ButtonPanel extends React.Component {
+  constructor(){
+    super()
+     this.handleClick = this.handleClick.bind(this);
+  }
   static propTypes = {
     clickHandler: PropTypes.func,
   };
