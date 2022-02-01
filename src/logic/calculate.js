@@ -93,6 +93,13 @@ export default function calculate(obj, buttonName) {
     return {};
   }
 
+  if (buttonName === "AC") {
+    return {
+      total: null,
+      next : null,
+      operation: null
+    }
+  }
   // Button must be an operation
 
   // When the user presses an operation button without having entered
